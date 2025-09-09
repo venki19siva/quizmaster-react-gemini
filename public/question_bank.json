@@ -1,0 +1,26 @@
+[
+  {
+    "topic": "Python",
+    "q": "Which keyword defines a function in Python?",
+    "options": [
+      "a) func",
+      "b) def",
+      "c) function",
+      "d) lambda"
+    ],
+    "answer": "b",
+    "explain": "Use `def`."
+  },
+  {
+    "topic": "Math",
+    "q": "What is 12 \u00f7 3?",
+    "options": [
+      "a) 2",
+      "b) 3",
+      "c) 4",
+      "d) 6"
+    ],
+    "answer": "c",
+    "explain": "12/3 = 4."
+  }
+]

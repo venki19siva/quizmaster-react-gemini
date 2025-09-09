@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: quizmaster-react-gemini
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_GEMINI_API_KEY
+        sync: false
+      - key: VITE_GEMINI_MODEL
+        value: gemini-1.5-flash
